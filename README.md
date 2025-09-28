@@ -26,17 +26,14 @@ Set-ExecutionPolicy RemoteSigned
 Виконайте такі команди в Powershell від прав адміністратора:
 
 ```bash
-
-# Скопіюйте шлях проекту (у вас може бути, наприклад D:\User\Desktop\Solar_System), тоді виконайте:
-
-cd D:\Users\User\Desktop\Solar_System
-
 # Встновити залежності (Для Node.js)
 npm install
 
 # Запустити локальний сервер
 npm run dev
 
+# Зібрати для продакшена у директорії dist/
+npm run build
 ```
 Після команди npm run dev або npm install ви отримаєте у терміналі посилання типу:
 VITE vX.X.X ready in 300ms
